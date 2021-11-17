@@ -2,8 +2,8 @@
 Лабораторная работа №6  
 ## **Лог команд:**  
 cd -  
-git config --global user.name ""  
-git config --global user.email <>  
+git config --global user.name "Natali969"  
+git config --global user.email svetlichnaya.natalya02@yandex.ru  
 git clone  
 git pull  
 git checkout
@@ -41,13 +41,17 @@ git checkout -b otchet
 ![изображение](https://user-images.githubusercontent.com/81923119/142046303-88ff99ab-596d-4133-b3b2-7dfcf6d199fb.png)  
   
 После слияния побочная ветка удаляется  
+![изображение](https://user-images.githubusercontent.com/81923119/142155168-8950ee79-a184-4b94-b8fa-3d41f73dc837.png)  
+  
+Добавляются файлы temp.txt и File2.docx и c помощью Блокнота изменяется файл . После каждого действия производится коммит.  
+![изображение](https://user-images.githubusercontent.com/81923119/142155495-ba1f9ed7-b46e-4a02-9fcf-94aade21a90f.png)  
 
-
-Добавляются файлы  и изменяется файл . После каждого действия производится коммит.  
-
+![изображение](https://user-images.githubusercontent.com/81923119/142155855-22638d13-1ccb-4277-9de4-811ee4d9cc03.png)  
+![изображение](https://user-images.githubusercontent.com/81923119/142155690-17e896e6-b343-44c4-a077-c46719963626.png)  
 
 Производится "хард" откат коммита к моменту, когда файл не был добавлен, но уже был изменён файл  
 
 С помощью команды git checkout -b otchet создаётся новая ветка для отчёта, а спомощью команды git add README.md в эту ветку добавляется файл для отчёта  
 
-Т.к. работа производилась постепенно, то была необходимостьь в синхронизации локального и удалённого репозитория.
+Т.к. работа производилась постепенно, то была необходимость в синхронизации локального и удалённого репозитория. Она производилась с помощью различных модификацй команды git push для удаления и добавления веток, а также команды git checkout для переключения между ними 
+
