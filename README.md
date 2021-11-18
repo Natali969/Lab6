@@ -1,26 +1,49 @@
 # LR6
 Лабораторная работа №6  
 ## **Лог команд:**  
-cd <*путьдопапки*>  
-git config --global user.name "*имяпользователя*"  
-git config --global user.email <*email*>  
-git clone <*ссылканарепозиторий*>  
-git pull  
-git checkout <*имяветки*>  
+```
+cd ~/Desktop/ЛР6   
+git config --global user.name "Natali969"  
+git config --global user.email <svetlichnaya.natalya02@yandex.ru 
+git clone https://github.com/Natali969/Lab6.git  
+cd Lab6  
+git pull 
+git log  
+git checkout branch1    
 git log 
-git merge <*имяветки*>  
+git checkout master
 git status  
-cat <*имяфайла*>  
-git add <*имяфайла*>  
-git commit -m "*сообщение о коммите*"  
-git branch -d <*имяудаляемойветки*>  
-git reset --hard <*хэшкоммита*> 
-git checkout -b <*имясоздаваемойветки*>  
-git push --set-upstream origin <*имяветки*>  
+cat mergefile.txt    
+cat mergefile.txt   
+git add mergefile.txt  
+git commit -m "merged and resolved the conflict in mergefile.txt"  
+git merge branch1   
+git branch -d branch1  
+git commit -m "Branch1 was deleted"  
+git add temp.txt  
+git status  
+git commit -m "Added new file: temp.txt"  
+git add NewFile.txt  
+git commit -m "Modified file NewFile.txt"
+git add File2.docx  
+git commit -m "Added new file: File2.docx"  
+git log
+git reset --hard 022eeb4  
+git checkout -b otchet   
+git push --set-upstream origin otchet  
 git push  
-git push origin -d <*имяветки*>
+git checkout master  
+git push  
+git checkout branch1  
+git push origin -d branch1 
+```
 ## **Описание работы:**  
-На рабочем столе была создана папка "ЛР6". Необходимо прейти в неё в консоли
+Создаётся репозиторий Lab6. В него импортируется другой репозиторий.  
+![изображение](https://user-images.githubusercontent.com/81923119/142460994-c19f34cd-f81b-43b2-aead-6bc2c96f5a78.png)  
+![изображение](https://user-images.githubusercontent.com/81923119/142461026-6e1f4bc2-42a5-4d3f-8f45-4f3de9da61be.png)  
+![изображение](https://user-images.githubusercontent.com/81923119/142461046-d1991b8f-2dc5-4b67-a6a8-c9c33d5df06b.png)  
+  
+На рабочем столе была создана папка "ЛР6". Необходимо перейти в неё в консоли
 ![изображение](https://user-images.githubusercontent.com/81923119/142027558-c9b80fa3-88c0-406a-834c-b0a186f110d6.png)  
   
 Задаются имя и email пользователя  
