@@ -1,19 +1,24 @@
 # LR6
 Лабораторная работа №6  
 ## **Лог команд:**  
-cd -  
-git config --global user.name "Natali969"  
-git config --global user.email svetlichnaya.natalya02@yandex.ru  
-git clone  
+cd <*путьдопапки*>  
+git config --global user.name "*имяпользователя*"  
+git config --global user.email <*email*>  
+git clone <*ссылканарепозиторий*>  
 git pull  
-git checkout
+git checkout <*имяветки*>  
 git log 
-git merge  
+git merge <*имяветки*>  
 git status  
-cat  
-git add  
-git commit -m "information about commit"  
-git checkout -b otchet
+cat <*имяфайла*>  
+git add <*имяфайла*>  
+git commit -m "*сообщение о коммите*"  
+git branch -d <*имяудаляемойветки*>  
+git reset --hard <*хэшкоммита*> 
+git checkout -b <*имясоздаваемойветки*>  
+git push --set-upstream origin <*имяветки*>  
+git push  
+git push origin -d <*имяветки*>
 ## **Описание работы:**  
 На рабочем столе была создана папка "ЛР6". Необходимо прейти в неё в консоли
 ![изображение](https://user-images.githubusercontent.com/81923119/142027558-c9b80fa3-88c0-406a-834c-b0a186f110d6.png)  
